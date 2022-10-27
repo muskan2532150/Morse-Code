@@ -14,3 +14,20 @@ MORSE_CODE = { '.-'=>'A', '-...'=>'B',
               '..--..'=>'?', '-..-.'=>'/', '-....-' => '-',
               '-.--.'=>'(', '-.--.-'=>')'
             }
+
+            
+def morse(string)
+    word = '';
+    string.split('   ').each do |el|
+            el.split(' ').each do |element|
+                word += MORSE_CODE[element]
+            end
+            word += ' '
+        end
+    return word
+end
+
+puts morse('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
+
+
+ 
