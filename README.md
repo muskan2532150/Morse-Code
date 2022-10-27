@@ -44,13 +44,10 @@ npm start
 
 ###  Author 2
 
-
 👤 **Abel Gebeyehu**
 
-  
 
 - GitHub: [@AbelG101](https://github.com/AbelG101)
-
 - LinkedIn: [Abel Gebeyehu](https://www.linkedin.com/in/abel-gebeyehu-779743183/)
 
 
